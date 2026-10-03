@@ -1,0 +1,5 @@
+Nome = input("Digite seu nome: ")
+Nascimento = int(input("Digite o seu nascimento: "))
+profissao = input("Digite sua profissão: ")
+ano_atual = int(input("Digite o ano atual: "))
+print(f"Olá, {Nome}!\nVocê nasceu em {Nascimento} e tem {ano_atual - Nascimento} anos e trabalha como {profissao}.")
